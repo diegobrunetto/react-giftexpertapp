@@ -2,10 +2,11 @@
 
 exports[`Pruebas en GifExpertApp debe mostrar correctamente el componente 1`] = `
 <Fragment>
-  <h2>
-    GifExpertApp
+  <h2
+    className="nes-text"
+  >
+    Busca tus Gifs favoritos
   </h2>
-  <hr />
   <AddCategory
     setCategories={[Function]}
   />
@@ -15,10 +16,11 @@ exports[`Pruebas en GifExpertApp debe mostrar correctamente el componente 1`] = 
 
 exports[`Pruebas en GifExpertApp debe mostrat la lista de categorias 1`] = `
 <Fragment>
-  <h2>
-    GifExpertApp
+  <h2
+    className="nes-text"
+  >
+    Busca tus Gifs favoritos
   </h2>
-  <hr />
   <AddCategory
     setCategories={[Function]}
   />

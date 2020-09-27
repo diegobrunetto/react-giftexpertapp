@@ -5,9 +5,16 @@ exports[`Pruebas en AddCategory debe mostrar el componente correctamente 1`] = `
   onSubmit={[Function]}
 >
   <input
+    className="nes-input"
     onChange={[Function]}
     type="text"
     value=""
   />
+  <button
+    className="nes-btn"
+    onSubmit={[Function]}
+  >
+    Ver Gifs
+  </button>
 </form>
 `;

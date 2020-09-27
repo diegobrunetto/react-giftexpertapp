@@ -1,24 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Pruebas en GifGrid debe mostrar el componente correctamente 1`] = `
-<Fragment>
-  <h3>
+<div
+  className="nes-container with-title is-centered"
+>
+  <h3
+    className="title"
+  >
     Kobe
   </h3>
   <p
-    className="animate__animated animate__flash"
+    className="animate__animated animate__flash nes-text"
   >
     Loading...
   </p>
   <div
     className="card-grid"
   />
-</Fragment>
+</div>
 `;
 
 exports[`Pruebas en GifGrid debe mostrar items cuando se cargan imágenes con useFetchGifs 1`] = `
-<Fragment>
-  <h3>
+<div
+  className="nes-container with-title is-centered"
+>
+  <h3
+    className="title"
+  >
     Kobe
   </h3>
   <div
@@ -37,5 +45,5 @@ exports[`Pruebas en GifGrid debe mostrar items cuando se cargan imágenes con us
       url="https://localhost/cualquier/cosa.jpg"
     />
   </div>
-</Fragment>
+</div>
 `;

@@ -4,7 +4,7 @@ describe("Pruebas con getGifs Fetch", () => {
   test("debe traer 9 elementos", async () => {
     const gifs = await getGifs("Kobe");
 
-    expect(gifs.length).toBe(9);
+    expect(gifs.length).toBe(10);
   });
 
   test("debe estar vacio al no tener category", async () => {
@@ -13,4 +13,3 @@ describe("Pruebas con getGifs Fetch", () => {
     expect(gifs.length).toBe(0);
   });
 });
- 
