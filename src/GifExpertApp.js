@@ -5,8 +5,8 @@ import { GifGrid } from "./components/GifGrid";
 
 import "./index.css";
 
-const GifExpertApp = () => {
-  const [categories, setCategories] = useState(["Kobe"]);
+const GifExpertApp = ({ defaultCategories = [] }) => {
+  const [categories, setCategories] = useState(defaultCategories);
 
   return (
     <>
