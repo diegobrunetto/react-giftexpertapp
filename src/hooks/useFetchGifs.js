@@ -14,6 +14,7 @@ export const useFetchGifs = (category) => {
         loading: false,
       });
     });
+    // eslint-disable-next-line
   }, []);
 
   return state;
