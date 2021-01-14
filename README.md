@@ -1,6 +1,4 @@
-# ✨ NAME (badges status of project)
-
-Gift Expert App
+# ✨ Gift Expert App
 
 ## 🎨 Preview
 
